@@ -46,8 +46,6 @@ class MLP:
         error_signal = loss
         for layer in reversed(self.layers):
             error_signal = layer.backward_step(error_signal,learning_rate)
-            
-            
     
 
 
