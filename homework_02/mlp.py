@@ -21,10 +21,8 @@ class MLP:
     def forward_step(self,input_vars):
         """
         Input is forwarded through the network
-
         Args:
             i(array): input array
-
         Returns: 
             activation(array): activation of the current layer
         """
@@ -38,7 +36,6 @@ class MLP:
         """
         Perform backpropagation by going bottom up through the network and 
         update the weights and biases.
-
         Args:
             loss(float): difference between target and prediction
             learning rate(float): value that determines to what degree we update the parameter
@@ -46,15 +43,3 @@ class MLP:
         error_signal = loss
         for layer in reversed(self.layers):
             error_signal = layer.backward_step(error_signal,learning_rate)
-            
-            
-    
-
-
-
-
-    
-
-
-
-
