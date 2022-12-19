@@ -4,7 +4,6 @@ dependencies:
   - matplotlib
   - tensorflow
   - tqdm
-  - pip
-      - tensorflow-addons
-      - tensorflow-datasets
-  
+  - pip:
+    - tensorflow-addons
+    - tensorflow-datasets
