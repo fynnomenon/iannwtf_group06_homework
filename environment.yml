@@ -1,0 +1,8 @@
+name: iannwtf
+
+dependencies:
+  - matplotlib
+  - tensorflow
+  - tensorflow-addons
+  - tensorflow-datasets
+  - tqdm
