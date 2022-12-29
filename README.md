@@ -8,4 +8,4 @@ This is the homework repository of group 06 for the course IANNwTF in WiSe 2022/
  - Week 5: [homework_05](homework_05)
  - Week 6: [homework_06](homework_06)
  - Week 7: [homework_07](homework_07)
- - Week 7: [homework_08](homework_08)
+ - Week 8: [homework_08](homework_08)
